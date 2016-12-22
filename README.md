@@ -1,3 +1,3 @@
 # FoundryMinds
-Repository for the Foundry MInds Website
+Repository for the Foundry Minds Website
 http://pipelf.github.io/FoundryMinds/
