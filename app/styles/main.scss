@@ -14,10 +14,30 @@ $enable-flex: true;
 }
 
 /* Space out content a bit */
-body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+//body {
+//  padding-top: 20px;
+//  padding-bottom: 20px;
+//}
+
+section { 
+  height: 100vh;
 }
+
+section:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -75px; 
+  height: 75px; 
+  visibility: hidden; 
+}
+
+body {
+  /* Show it's not fixed to the top */
+  min-height: 75rem;
+  padding-top: 6rem;
+
+}
+
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
